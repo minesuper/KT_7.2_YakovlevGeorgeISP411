@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MasterFloorDBModelContainer" CdmEntityContainer="MasterFloorDBEntities">
+    <EntitySetMapping Name="Adres">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.Adres">
+        <MappingFragment StoreEntitySet="Adres">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AdresIndex" ColumnName="AdresIndex" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="StreetId" ColumnName="StreetId" />
+          <ScalarProperty Name="HouseNum" ColumnName="HouseNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialType">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.MaterialType">
+        <MappingFragment StoreEntitySet="MaterialType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DefectRate" ColumnName="DefectRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Partner">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.Partner">
+        <MappingFragment StoreEntitySet="Partner">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="NameId" ColumnName="NameId" />
+          <ScalarProperty Name="DirectorSurname" ColumnName="DirectorSurname" />
+          <ScalarProperty Name="DirectorName" ColumnName="DirectorName" />
+          <ScalarProperty Name="DirectorPatronym" ColumnName="DirectorPatronym" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="AdresId" ColumnName="AdresId" />
+          <ScalarProperty Name="ITN" ColumnName="ITN" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerName">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.PartnerName">
+        <MappingFragment StoreEntitySet="PartnerName">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerProduct">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.PartnerProduct">
+        <MappingFragment StoreEntitySet="PartnerProduct">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ParnerId" ColumnName="ParnerId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerType">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.PartnerType">
+        <MappingFragment StoreEntitySet="PartnerType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Articul" ColumnName="Articul" />
+          <ScalarProperty Name="MinCost" ColumnName="MinCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductType">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.ProductType">
+        <MappingFragment StoreEntitySet="ProductType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProductMultiply" ColumnName="ProductMultiply" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Region">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Street">
+      <EntityTypeMapping TypeName="MasterFloorDBModel.Street">
+        <MappingFragment StoreEntitySet="Street">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
