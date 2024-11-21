@@ -43,7 +43,7 @@
 
             <TextBox x:Name="NameTextBox" Grid.Column="1"
                      Margin="10 0" Width="200"
-                     Height="40" Grid.Row="0"
+                     Height="40" Grid.Row="0" MaxLength="50"
                      VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
             <ComboBox x:Name="TypeComboBox" Grid.Column="1"
                      Margin="10 0" Width="200"
@@ -51,7 +51,7 @@
                      VerticalAlignment="Center" HorizontalAlignment="Left"></ComboBox>
             <TextBox x:Name="RatingTextBox" Grid.Column="1"
                      Margin="10 0" Width="200"
-                     Height="40" Grid.Row="2"
+                     Height="40" Grid.Row="2" MaxLength="12"
                      VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
             <TextBox x:Name="AdresTextBox" Grid.Column="1"
                      Margin="10 0" Width="200"
@@ -63,11 +63,11 @@
                      VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
             <TextBox x:Name="PhoneTextBox" Grid.Column="3"
                      Margin="10 0" Width="200"
-                     Height="40" Grid.Row="1"
+                     Height="40" Grid.Row="1" MaxLength="50"
                      VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
             <TextBox x:Name="EmailTextBox" Grid.Column="3"
                      Margin="10 0" Width="200"
-                     Height="40" Grid.Row="2"
+                     Height="40" Grid.Row="2" MaxLength="100"
                      VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
         </Grid>
         <Button x:Name="BackButton" Content="Назад"
